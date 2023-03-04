@@ -1,0 +1,44 @@
+body {
+  background: black;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  /* font-family: 'Luckiest Guy', cursive; */
+}
+
+.button {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3000;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset {
+  position: absolute;
+  /* z-index: 5000; */
+  width: 250px;
+  visibility: hidden;
+  
+}
+
+#canvas {
+  position: absolute;
+  border: 3px solid white;
+  width: 1024px;
+  height: 700px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+    /* height: 90vh; 
+  width: 90vw; 
+  display: block; */
+ 
+ 
+  
+}
